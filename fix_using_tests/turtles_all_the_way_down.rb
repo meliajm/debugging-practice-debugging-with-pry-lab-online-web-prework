@@ -13,7 +13,7 @@ def turtle_traits(turtles)
   array = []
   turtles.map do |turtle|
     binding.pry
-    turtle.each do |trait|
+    turtle[:trait].each do |trait|
       trait
     end
   end
