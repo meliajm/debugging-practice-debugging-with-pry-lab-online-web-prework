@@ -12,7 +12,7 @@ end
 def turtle_traits(turtles)
   array = []
   turtles.map do |turtle|
-    # binding.pry
+    binding.pry
     turtle.each do |trait|
       trait
     end
